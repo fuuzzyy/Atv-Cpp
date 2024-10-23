@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+  double num1, num2;
+  std::cout << "Digite o primeiro número real: ";
+  std::cin >> num1;
+  std::cout << "Digite o segundo número real: ";
+  std::cin >> num2;
+  if (num1 >= num2) {
+    std::cout << "O primeiro número é maior ou igual ao segundo número." << std::endl;
+  } else {
+    std::cout << "O primeiro número é menor que o segundo número." << std::endl;
+  }
+
+  return 0;
+}

@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int RaioDoCirculo;
+    cout << "Digite o raio do círculo: ";
+    cin >> RaioDoCirculo;
+    cout << "A área do círculo é: " << 3.14 * (RaioDoCirculo * RaioDoCirculo) << endl;;
+    return 0;
+}

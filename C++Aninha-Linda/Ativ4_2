@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Resposta;
+    cout << "Qual operação você quer? (Digite 1 para adição, 2 para subtração, 3 para multiplicação e 4 para divisão)" << endl;
+    cin >> Resposta;
+    switch (Resposta) {
+        case 1 :
+            int num1;
+            int num2;
+        cout << "Digite um número:" << endl;
+        cin >> num1;
+            cout << "Digite outro número: "<< endl;
+            cin >> num2;
+            cout << "O resultado é: " << num1 + num2 << endl;
+        break;
+        case 2 :
+        cout << "Digite um número:" << endl;
+        cin >> num1;
+            cout << "Digite outro número: "<< endl;
+            cin >> num2;
+            cout << "O resultado é: " << num1 - num2 << endl;
+        break;
+        case 3 :
+        cout << "Digite um número:" << endl;
+            cin >> num1;
+            cout << "Digite outro número: "<< endl;
+            cin >> num2;
+            cout << "O resultado é: " << num1 * num2 << endl;
+        break;
+        case 4 :
+        cout << "Digite um número:" << endl;
+            cin >> num1;
+            cout << "Digite outro número: "<< endl;
+            cin >> num2;
+            cout << "O resultado é: " << num1 / num2 << endl;
+        break;
+    }
+    return 0;
+}

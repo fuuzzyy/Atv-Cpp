@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    double num, metade;
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+    metade = num / 2;
+    std::cout << "A metade de " << num << " é " << metade << std::endl;
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int num;
+  
+  cout << "Digite um número inteiro: ";
+  cin >> num;
+
+  if (num % 2 != 0) {
+    std::cout << "O número é ímpar." << std::endl;
+  }
+
+  return 0;
+}

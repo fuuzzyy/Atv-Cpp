@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int vetor[5] = {10, 20, 30, 40, 50};
+    int maior = vetor[0];
+
+    for (int i = 1; i < 5; i++) {
+        if (vetor[i] > maior) {
+            maior = vetor[i];
+        }
+    }
+
+    cout << "O maior valor no vetor é: " << maior << endl;
+
+    return 0;
+}

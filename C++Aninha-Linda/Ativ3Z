@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string resposta;
+    cout << "Você é um membro ativo do clube?(Sim ou Não)" << endl;
+    cin >> resposta;
+    if (resposta == "Não") {
+        cout << "Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube !" << endl;  
+    } else {
+        cout << "Ok! Continue usufruindo dos benefícios do clube!" << endl;
+    }
+    return 0;
+}

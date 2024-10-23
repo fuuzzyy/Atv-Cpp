@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string resposta;
+    cout << "Você deseja cancelar a operação?(Sim ou Não) " << endl;
+    cin >> resposta ;
+    if (resposta == "Sim") {
+        cout << "Por favor, confirme o cancelamento da operação!" << endl;
+    }
+    else {
+        cout << "Ok!" << endl;
+    }
+    return 0;
+
+}

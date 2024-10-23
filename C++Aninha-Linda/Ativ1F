@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  string Nome;
+  int Idade;
+  cout << "Digite seu nome: ";
+  cin >> Nome;
+  cout << "Digite sua idade: ";
+  cin >> Idade;
+  cout << "Seu nome é " << Nome << " e sua idade é " << Idade << endl;
+  
+}

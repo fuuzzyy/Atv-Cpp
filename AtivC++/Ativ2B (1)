@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main() {
+    double num, dobro;
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+    dobro = num * 2;
+    std::cout << "O dobro de " << num << " é " << dobro << std::endl;
+
+    return 0;
+}

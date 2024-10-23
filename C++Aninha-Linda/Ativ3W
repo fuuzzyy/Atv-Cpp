@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int numero;
+    cout << "Digite um número : " << endl;
+    cin >> numero;
+    if (numero > 10  || numero < 0) {
+        cout << "Número inválido!" << endl;
+    }
+    return 0;
+}

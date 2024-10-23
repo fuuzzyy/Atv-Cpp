@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+    double num1, num2, resultado;
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+    resultado = num2 - num1;
+    std::cout << "O resultado da subtração de " << num2 << " pelo " << num1 << " é " << resultado << std::endl;
+
+    return 0;
+}

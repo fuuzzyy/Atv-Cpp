@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int RaioDoCilindro;
+    int AlturaDoCilindro;
+    cout << "Digite o raio do cilindro: ";
+    cin >> RaioDoCilindro;
+    cout << "Digite a altura do cilindro: ";
+    cin >> AlturaDoCilindro;
+    cout << "O volume do cilindro é: " << 3.14 * (RaioDoCilindro * RaioDoCilindro) * AlturaDoCilindro << endl;;
+    return 0;
+}

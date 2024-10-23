@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int TemperaturaEmCelsius;
+     cout << "Digite a temperatura em Celsius: ";
+     cin >> TemperaturaEmCelsius;
+     double TemperaturaEmFahrenheit = TemperaturaEmCelsius * 1.8 + 32;
+     cout << "A temperatura em Fahrenheit é: " << TemperaturaEmFahrenheit << endl;
+    return 0;
+}

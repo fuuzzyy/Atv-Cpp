@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+  int year;
+  cout << "Digite um ano: ";
+  cin >> year;
+
+  if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+    cout << "O ano é bissexto." <<endl;
+  } else {
+   cout << "O ano não é bissexto." << endl;
+  }
+
+  return 0;
+}

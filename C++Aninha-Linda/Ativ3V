@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string resposta;
+    cout << "Digite seu nome : " << endl;
+    cin >> resposta;
+    if (resposta == "Wilson" || resposta == "Gloria") {
+        cout << "Olá, bem vindo(a) de volta!" << endl;
+    }
+    return 0;
+}

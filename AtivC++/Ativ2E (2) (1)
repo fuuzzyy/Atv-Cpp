@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath> 
+int main() {
+    double num, raizQuadrada;
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+    if (num >= 0) {
+        raizQuadrada = std::sqrt(num);
+        std::cout << "A raiz quadrada de " << num << " é " << raizQuadrada << std::endl;
+    } else {
+        std::cout << "Erro: A raiz quadrada de um número negativo não é um número real." << std::endl;
+    }
+
+    return 0;
+}

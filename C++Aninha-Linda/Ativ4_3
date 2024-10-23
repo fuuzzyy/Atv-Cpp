@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int DiaDaSemana;
+    cout << "Digite o número correspodente ao dia da semana: (1 = Domingo, 2 = Segunda, 3 = Terça, 4 = Quarta, 5 = Quinta, 6 = Sexta e 7 = Sábado)" << endl;
+    cin >> DiaDaSemana;
+    switch (DiaDaSemana){
+        
+        case 2 :
+        case 3 :
+        case 4 :
+        case 5 :
+        case 6 :
+        cout << "É dia útil!";
+        break;
+        case 1 : 
+        case 7 :
+        cout << "É final de semana!";
+        break;
+    }
+        
+        return 0;
+    
+    }

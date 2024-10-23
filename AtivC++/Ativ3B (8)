@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    int numero1, numero2;
+    std::cout << "Digite o primeiro nÃºmero inteiro: ";
+    std::cin >> numero1;
+    std::cout << "Digite o segundo nÃºmero inteiro: ";
+    std::cin >> numero2;
+    if (numero1 < numero2) {
+        std::cout << "O primeiro nÃºmero Ã© menor que o segundo nÃºmero." << std::endl;
+    } else if (numero1 > numero2) {
+        std::cout << "O primeiro nÃºmero nÃ£o Ã© menor que o segundo nÃºmero." << std::endl;
+    } else {
+        std::cout << "Os dois nÃºmeros sÃ£o iguais." << std::endl;
+    }
+
+    return 0;
+}

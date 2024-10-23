@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+
+class CaixaEletronico {
+private:
+    double saldo;
+
+public:
+    CaixaEletronico() {
+        saldo = 0.0;
+    }
+
+    void depositar(double valor) {
+        saldo += valor;
+        cout << "Depósito realizado com sucesso. Novo saldo: " << saldo << endl;
+    }
+
+    void sacar(double valor) {
+        if (valor > saldo) {
+            cout << "Saldo insuficiente." << endl;
+        } else {
+            saldo -= valor;
+            cout << "Saque realizado com sucesso. Novo saldo: " << saldo << endl;
+        }
+    }
+
+    void consultarSaldo() {
+        cout << "Saldo atual: " << saldo << endl;
+    }
+};
+
+int main() {
+    CaixaEletronico caixa;
+    int escolha;
+    double valor;
+
+    while (true) {
+        cout << "Escolha uma operação:" << endl;
+        cout << "1. Depósito" << endl;
+        cout << "2. Saque" << endl;
+        cout << "3. Consultar Saldo" << endl;
+        cout << "4. Sair" << endl;
+        cin >> escolha;
+
+        switch (escolha) {
+            case 1:
+                cout << "Digite o valor a depositar: ";
+                cin >> valor;
+                caixa.depositar(valor);
+                break;
+            case 2:
+                cout << "Digite o valor a sacar: ";
+                cin >> valor;
+                caixa.sacar(valor);
+                break;
+            case 3:
+                caixa.consultarSaldo();
+                break;
+            case 4:
+                cout << "Saindo..." << endl;
+                return 0;
+            default:
+                cout << "Escolha inválida. Tente novamente." << endl;
+        }
+    }
+
+    return 0;
+}

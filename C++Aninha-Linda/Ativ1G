@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string Estado;
+    string Cidade;
+    string Bairro;
+    string rua;
+    int NumeroDaCasa;
+
+    cout << "Digite seu estado: ";
+    cin >> Estado;
+    cout << "Digite sua cidade: ";
+    cin >> Cidade;
+    cout << "Digite seu bairro: ";
+    cin >> Bairro;
+    cout << "Digite sua rua: ";
+    cin >> rua;
+    cout << "Digite seu numero da casa: ";
+    cin >> NumeroDaCasa;
+    cout << "Seu estado é: " << Estado << endl
+         << "Sua cidade é: " << Cidade << endl
+         << "Seu bairro é: " << Bairro << endl
+         << "Sua rua é: " << rua << endl
+         << "Seu numero da casa é: " << NumeroDaCasa << endl;
+
+    return 0;
+}

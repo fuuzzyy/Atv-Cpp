@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+  double firstNumber, secondNumber;
+  cout << "Digite o primeiro número real: ";
+  cin >> firstNumber;
+
+  if (cin.fail()) {
+    cout << "Erro: entrada inválida." << endl;
+    return 1;
+  }
+
+  cout << "Digite o segundo número real: ";
+  cin >> secondNumber;
+
+  if (cin.fail()) {
+    cout << "Erro: entrada inválida." << endl;
+    return 1;
+  }
+
+  if (firstNumber <= secondNumber) {
+    cout << "O primeiro número é menor ou igual ao segundo número." << endl;
+  } else {
+    cout << "O primeiro número é maior que o segundo número." << endl;
+  }
+
+  return 0;
+}

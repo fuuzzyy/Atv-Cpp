@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    int numero1, numero2, numero3;
+    std::cout << "Digite o primeiro número inteiro: ";
+    std::cin >> numero1;
+    std::cout << "Digite o segundo número inteiro: ";
+    std::cin >> numero2;
+    std::cout << "Digite o terceiro número inteiro: ";
+    std::cin >> numero3;
+    if (numero1 < numero2 && numero1 > numero3) {
+        std::cout << "O primeiro número é menor que o segundo número e maior que o terceiro número." << std::endl;
+    } else {
+        std::cout << "O primeiro número não atende as condições especificadas." << std::endl;
+    }
+
+    return 0;
+}

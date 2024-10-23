@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string resposta;
+    cout << "Você deseja comprar algum produto?" << endl;
+    cin >> resposta;
+    if (resposta == "sim" || resposta == "s") {
+        cout << "Obrigado pela compra!" << endl;
+    }
+    return 0;
+}

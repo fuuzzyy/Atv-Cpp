@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    int soma = 0;
+
+    cout << "Insira números inteiros (digite um número negativo para sair):" << endl;
+
+    while (true) {
+        cout << "> ";
+        cin >> numero;
+
+        if (numero < 0) {
+            break; 
+        }
+
+        soma += numero; 
+    }
+
+    cout << "A soma dos números inseridos é: " << soma << endl;
+
+    return 0;
+}

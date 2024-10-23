@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string resposta;
+    cout << "Você deseja adicionar algo no seu café?(Açúcar ou Leite)" << endl;
+    cin >> resposta;
+    if (resposta == "Leite" || resposta == "Açúcar") {
+        cout << "Café com adicional preparado!" << endl;  
+    } else {
+        cout << "Ok!" << endl;
+    }
+    return 0;
+}

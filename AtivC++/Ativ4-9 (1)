@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int monthChoice;
+    cout << "Escolha um mês:" << endl;
+    cout << "1. Janeiro" << endl;
+    cout << "2. Fevereiro" << endl;
+    cout << "3. Março" << endl;
+    cout << "4. Abril" << endl;
+    cout << "5. Maio" << endl;
+    cout << "6. Junho" << endl;
+    cout << "7. Julho" << endl;
+    cout << "8. Agosto" << endl;
+    cout << "9. Setembro" << endl;
+    cout << "10. Outubro" << endl;
+    cout << "11. Novembro" << endl;
+    cout << "12. Dezembro" << endl;
+    cin >> monthChoice;
+
+    int daysInMonth;
+    switch (monthChoice) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            daysInMonth = 31;
+            break;
+        case 2:
+            daysInMonth = 28;
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            daysInMonth = 30;
+            break;
+        default:
+            cout << "Escolha inválida. Por favor, tente novamente." << endl;
+            return 1;
+    }
+
+    cout << "O mês escolhido tem " << daysInMonth << " dias." << endl;
+
+    return 0;
+}

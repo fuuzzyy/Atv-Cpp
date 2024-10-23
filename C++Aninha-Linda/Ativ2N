@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int PrecoDoProduto;
+    cout << "Digite o preço do produto: ";
+    cin >> PrecoDoProduto;
+    int DescontoEmPorcentagem;
+    cout << "Digite o desconto em porcentagem: ";
+    cin >> DescontoEmPorcentagem;
+    double PrecoFinal = PrecoDoProduto - (PrecoDoProduto * DescontoEmPorcentagem / 100);
+    cout << "O preço final do produto é: " << PrecoFinal << endl;
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   double numero;
+    cout << "Digite um número: " << endl;
+    cin >> numero;
+    if (numero != 0) {
+        cout << "O número é diferente de zero!" << endl;
+    }
+    else {
+        cout << "O número é igual a zero!" << endl;
+    }
+    return 0;
+}

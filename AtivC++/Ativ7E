@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numero;
+    int soma = 0;
+
+    do {
+        cout << "Insira um número inteiro: ";
+        cin >> numero;
+
+        if (numero >= 0) {
+            soma += numero; 
+        }
+
+    } while (numero >= 0); 
+
+    cout << "A soma dos números inseridos é: " << soma << endl;
+
+    return 0;
+}

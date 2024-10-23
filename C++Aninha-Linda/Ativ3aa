@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string palavra;
+    cout << "Digite uma palavra : " << endl;
+    cin >> palavra ;
+    if (!palavra.empty()) {
+        cout << "A palavra não é vazia!" << endl;
+    }
+    else {
+        cout << "A palavra é vazia!" << endl;
+    }
+    return 0;
+}

@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int numero;
+    cout << "Digite um número inteiro!" << endl;
+    cin >> numero;
+    if (numero % 3 == 0 || numero % 5 == 0) {
+        cout << "O número é divisível por 3 ou por 5." << endl;
+    }
+    return 0;
+}

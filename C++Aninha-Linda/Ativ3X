@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   string resposta;
+    cout << "Você é um robô? (Sim ou Não)" << endl;
+    cin >> resposta;
+    if (resposta == "Não") {
+        cout << "Por favor, prove que você não é um robô!" << endl;
+    }
+    return 0;
+}

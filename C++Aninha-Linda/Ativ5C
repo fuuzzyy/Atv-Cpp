@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string palavra;
+    cout << "Digite uma palavra: ";
+    cin >> palavra;
+    for (char letra : palavra) {
+        cout << letra << endl;
+    }
+
+    return 0;
+}

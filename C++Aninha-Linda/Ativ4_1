@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Numero;
+    cout << "Digite um numero: ";
+    cin >> Numero;
+    switch (Numero){
+        case 1 :
+        cout << "Bom dia!";
+        break;
+        case 2 :
+        cout << "Boa tarde!";
+        break;
+        case 3 :
+        cout << "Boa noite!";
+        break;
+    }
+    return 0;
+}

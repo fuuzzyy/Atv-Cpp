@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace
+int main() {
+  int num;
+ cout << "Digite um número inteiro: ";
+ cin >> num;
+  if (cin.fail()) {
+    cerr << "Erro: entrada inválida." << endl;
+    return 1;
+  }
+
+  if (num % 2 != 0) {
+    cout << "O número é ímpar." << endl;
+  } else {
+    cout << "O número é par." << endl;
+  }
+
+  return 0;
+}

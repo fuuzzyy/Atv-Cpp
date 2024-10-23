@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int escolhaIdioma;
+    cout << "Escolha um idioma:" << endl;
+    cout << "1. Português" << endl;
+    cout << "2. Inglês" << endl;
+    cin >> escolhaIdioma;
+
+    switch (escolhaIdioma) {
+        case 1:
+            cout << "Bem-vindo ao nosso programa!" << endl;
+            break;
+        case 2:
+            cout << "Welcome to our program!" << endl;
+            break;
+        default:
+            cout << "Escolha inválida. Por favor, tente novamente." << endl;
+    }
+
+    return 0;
+}
